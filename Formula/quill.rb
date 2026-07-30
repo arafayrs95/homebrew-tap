@@ -3,7 +3,7 @@
 #
 #   brew install arafayrs95/tap/quill
 #
-# Keep `version` and the four sha256 values synchronized after every release.
+# Keep the four versioned URLs and sha256 values synchronized after every release.
 class Quill < Formula
   desc "Terminal-native Markdown prompt workspace for Claude and OpenAI"
   homepage "https://quillterminal.app"
