@@ -1,4 +1,4 @@
-# Public Homebrew formula mirrored to arafayrs95/homebrew-tap.
+# Public Quill Terminal formula mirrored to arafayrs95/homebrew-tap.
 # Users install with:
 #
 #   brew install arafayrs95/tap/quill
