@@ -1,3 +1,6 @@
+# typed: strict
+# frozen_string_literal: true
+
 # Public Homebrew formula mirrored to arafayrs95/homebrew-tap.
 # Users install with:
 #
@@ -11,21 +14,21 @@ class Quill < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://downloads.quillterminal.app/releases/v0.10.4/quill-v0.10.4-aarch64-apple-darwin.tar.gz"
-      sha256 "9bff2eb17397539d3600c42ba90657d0d5dd8280d9f75babe2244d88acc4d7b7"
+      url "https://downloads.quillterminal.app/releases/v0.11.4/quill-v0.11.4-aarch64-apple-darwin.tar.gz"
+      sha256 "c8ae8ab1b8dbd2dd83fb9bd75df72b489b872d67f4cd6321bff8bb90b63449bb"
     else
-      url "https://downloads.quillterminal.app/releases/v0.10.4/quill-v0.10.4-x86_64-apple-darwin.tar.gz"
-      sha256 "b4616cbb89be1804434bae8deea10acfa5487f97ccd07c90ae7c84bf03b99419"
+      url "https://downloads.quillterminal.app/releases/v0.11.4/quill-v0.11.4-x86_64-apple-darwin.tar.gz"
+      sha256 "355d5b33020226889750ef4414694a79e5d2b7e275474b62ba3dc032b28c9d24"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://downloads.quillterminal.app/releases/v0.10.4/quill-v0.10.4-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "24f2c4cfe8487a41c043e95ecde921d5718cc54f5ab8b5fbf9118d010220859c"
+      url "https://downloads.quillterminal.app/releases/v0.11.4/quill-v0.11.4-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "7f692958041f9758b088789a6268a56507fc83d2e81f837a2e43211ac3c05339"
     else
-      url "https://downloads.quillterminal.app/releases/v0.10.4/quill-v0.10.4-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "3dd1e068044a4aa326241cc5e6ca45fbb8f9bc68530e9f692698200b891e195d"
+      url "https://downloads.quillterminal.app/releases/v0.11.4/quill-v0.11.4-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "f32a216d4d6f44a4d24df2f7028bf23a58a7609b760e3ef821d6aa77335b426d"
     end
   end
 
