@@ -14,21 +14,21 @@ class Quill < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://downloads.quillterminal.app/releases/v0.12.4/quill-v0.12.4-aarch64-apple-darwin.tar.gz"
-      sha256 "6ace3b5c0241db7c85d752a0a78a7f058d3400b48a7d2cd9539d163cedc7260f"
+      url "https://downloads.quillterminal.app/releases/v0.12.5/quill-v0.12.5-aarch64-apple-darwin.tar.gz"
+      sha256 "fec7b2b24473df707c857c3d65e7bd498e241ffea9dcf3012d5054c07060ad79"
     else
-      url "https://downloads.quillterminal.app/releases/v0.12.4/quill-v0.12.4-x86_64-apple-darwin.tar.gz"
-      sha256 "5d49c6c9a2660bfca3b784786f2634b72ce01957a2a8361151e697699c54a0a1"
+      url "https://downloads.quillterminal.app/releases/v0.12.5/quill-v0.12.5-x86_64-apple-darwin.tar.gz"
+      sha256 "1c7833fddda4f372831a72dc5493a1a4171ecfc4da4f95b690dfbbd7a79a8f04"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://downloads.quillterminal.app/releases/v0.12.4/quill-v0.12.4-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "6dd77547c17e4a06778939702ac7e36692600a17174bb75ca988e690e426c577"
+      url "https://downloads.quillterminal.app/releases/v0.12.5/quill-v0.12.5-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "005aef924888c19a39929f95a524c551776b9158153530f31e3999820c9a3b99"
     else
-      url "https://downloads.quillterminal.app/releases/v0.12.4/quill-v0.12.4-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "de146884062771df0455d67d21f9b21c9b619d14a4959e1d68f70f3eeb857066"
+      url "https://downloads.quillterminal.app/releases/v0.12.5/quill-v0.12.5-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "f61e86db58752ddb549c55170f7f7bdd79dbcf9e2113ae03f5e13ac01ce91b36"
     end
   end
 
